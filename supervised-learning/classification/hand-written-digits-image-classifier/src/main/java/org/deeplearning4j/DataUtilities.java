@@ -16,9 +16,12 @@ public class DataUtilities {
   private static Logger log = LoggerFactory.getLogger(DataUtilities.class);
 
   /** Data URL for downloading */
-  public static final String DATA_URL = "http://github.com/myleott/mnist_png/raw/master/mnist_png.tar.gz";
+  public static final String DATA_URL = "http://github.com/router19/machine-learning/tree/master/data/mnist_png/mnist_png.tar.gz";
+    /** Use below URL for download if my github url does not work*/
+    //"http://github.com/myleott/mnist_png/raw/master/mnist_png.tar.gz";
 
   /** Location to save and extract the training/testing data */
+  /** Update the DATA_PATH corresponding to the location you want to download the MNIST data*/
   public static final String DATA_PATH = "D:\\ML\\TrainingData\\dl4j_Mnist";
       //FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "dl4j_Mnist/");
 
