@@ -48,7 +48,7 @@ public class ImageProcessingUsingRNN {
 
   public static void main(String[] args) throws Exception {
 
-    //download data from http://github.com/myleott/mnist_png/raw/master/mnist_png.tar.gz
+    //download data from http://github.com/router19/machine-learning/tree/master/data/mnist_png/mnist_png.tar.gz
     DataUtilities.downloadData();
 
     File trainData = new File(DATA_PATH + "/mnist_png/training");
